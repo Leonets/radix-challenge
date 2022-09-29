@@ -1,0 +1,18 @@
+
+#core api docker full node
+coreapi:
+  api:
+    #url: http://localhost:3333 full-node
+    url: http://localhost:9090 #wiremock
+    timeouts-millis:
+      read: 30000
+      write: 30000
+      response: 30000
+
+#Logging
+logging:
+  level:
+    rdx.gateway.challenge.api.TransactionApiController: DEBUG
+    rdx.gateway.challenge.service.TransactionServiceImpl: DEBUG
+    rdx.gateway.challenge.coreclient.service.TransactionApiClient: DEBUG
+    rdx.gateway.challenge.util.ScheduledTasks: DEBUG

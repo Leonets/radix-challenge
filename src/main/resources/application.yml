@@ -1,0 +1,44 @@
+#Logging
+logging:
+  level:
+    rdx.gateway.challenge.api.TransactionApiController: INFO
+    rdx.gateway.challenge.service.TransactionServiceImpl: INFO
+    rdx.gateway.challenge.coreclient.service.TransactionApiClient: INFO
+    rdx.gateway.challenge.util.ScheduledTasks: INFO
+
+#Spring
+spring:
+  application:
+    name: gateway-challenge
+  codec:
+    max-in-memory-size: 10MB
+  zipkin:
+    enabled: false
+  main:
+    allow-bean-definition-overriding: true
+  jackson:
+    date-format: 'rdx.gateway.challenge.util.RFC3339DateFormat'
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: 'false'
+
+# Enable Tomcat access log in std out
+server:
+  tomcat:
+    accesslog:
+      prefix: stdout
+      file-date-format: ''
+      enabled: 'true'
+      suffix: ''
+      buffered: 'false'
+      directory: /dev
+  port: 8086
+
+#core api docker full node
+coreapi:
+  api:
+    url: http://localhost:3333
+    timeouts-millis:
+      read: 30000
+      write: 30000
+      response: 30000
+

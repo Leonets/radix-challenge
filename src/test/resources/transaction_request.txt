@@ -1,0 +1,11 @@
+{
+  "network_identifier": {
+    "network": "stokenet",
+    "description": "The name of the network"
+  },
+  "state_identifier": {
+    "state_version": 0,
+    "transaction_accumulator": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "limit": 100
+}

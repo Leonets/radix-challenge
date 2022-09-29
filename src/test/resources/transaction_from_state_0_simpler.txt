@@ -1,0 +1,232 @@
+{
+    "state_identifier": {
+        "state_version": 0,
+        "transaction_accumulator": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "transactions": [
+        {
+            "transaction_identifier": {
+                "hash": "131ab1ce4711d31dff687ffda1f5d25684fcac8352d331fc02ac77f673b22ed0"
+            },
+            "committed_state_identifier": {
+                "state_version": 1000,
+                "transaction_accumulator": "ecf5c3e591ec7a6a3543c225a608ebd80992cf45e516e6b5c36d5ae4e251bcff"
+            },
+            "operation_groups": [
+                {
+                    "operations": [
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "system"
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "d78319d93de8b6178b19b9143b24957545b0547efd5b577257e0e55ea624b3eb00000001"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "round": 998,
+                                    "timestamp": 1627342927547,
+                                    "type": "RoundData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qd7np2pv88xnyavg5wu3karl68w2gjwq8ja58fcuqdfa6n3kpwh7698nmam",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "7104e0a48aa7128081b31c25309095c1b6dbe3bdda313baacba97e0d3b5e169500000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 41,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qd7np2pv88xnyavg5wu3karl68w2gjwq8ja58fcuqdfa6n3kpwh7698nmam",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "131ab1ce4711d31dff687ffda1f5d25684fcac8352d331fc02ac77f673b22ed000000000"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 42,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "system"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "131ab1ce4711d31dff687ffda1f5d25684fcac8352d331fc02ac77f673b22ed000000001"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "round": 999,
+                                    "timestamp": 1627342927791,
+                                    "type": "RoundData"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "metadata": {
+                "size": 150,
+                "hex": "07d78319d93de8b6178b19b9143b24957545b0547efd5b577257e0e55ea624b3eb00000001077104e0a48aa7128081b31c25309095c1b6dbe3bdda313baacba97e0d3b5e1695000000000200330d00037d30a82c39cd327588a3b91b747fd1dca449c03cbb43a71c0353dd4e360bafed000000000000002a0000000000000000020012020000000000000003e70000017ae53277af00",
+                "fee": {
+                    "value": "0",
+                    "resource_identifier": {
+                        "rri": "xrd_tr1qyf0x76s",
+                        "type": "Token"
+                    }
+                }
+            }
+        },
+        {
+            "transaction_identifier": {
+                "hash": "a4588fe7005a48a4bb5c8a8032fb74902a1c19341bf1b095ab733b3f8b8dfd99"
+            },
+            "committed_state_identifier": {
+                "state_version": 8,
+                "transaction_accumulator": "33a93933b4fcfeb5d9440fd76ef67ef6f846b4ca73b1f0860d6d44feed3b775f"
+            },
+            "operation_groups": [
+                {
+                    "operations": [
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "system"
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "14fa0776cbe2f4642d27f512054d1007903f086fea8d0a50c377781d5b32b49000000001"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "round": 6,
+                                    "timestamp": 1627342762895,
+                                    "type": "RoundData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qtx35eknnnefue4wdra9j3ugld0j5hlpfmnr36npjydranz3d4ys6kjetar",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000dd"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qtx35eknnnefue4wdra9j3ugld0j5hlpfmnr36npjydranz3d4ys6kjetar",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "a4588fe7005a48a4bb5c8a8032fb74902a1c19341bf1b095ab733b3f8b8dfd9900000000"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 1,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "system"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "a4588fe7005a48a4bb5c8a8032fb74902a1c19341bf1b095ab733b3f8b8dfd9900000001"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "round": 7,
+                                    "timestamp": 1627342763009,
+                                    "type": "RoundData"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "metadata": {
+                "size": 150,
+                "hex": "0714fa0776cbe2f4642d27f512054d1007903f086fea8d0a50c377781d5b32b490000000010754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000dd0200330d0002cd1a66d39cf29e66ae68fa594788fb5f2a5fe14ee638ea61911a3ecc516d490d00000000000000010000000000000000020012020000000000000000070000017ae52ff40100",
+                "fee": {
+                    "value": "0",
+                    "resource_identifier": {
+                        "rri": "xrd_tr1qyf0x76s",
+                        "type": "Token"
+                    }
+                }
+            }
+        }
+    ]
+}

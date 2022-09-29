@@ -1,0 +1,146 @@
+{
+    "pre_genesis_state_identifier": {
+        "state_version": 0,
+        "transaction_accumulator": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "genesis_state_identifier": {
+        "state_version": 1,
+        "transaction_accumulator": "9b3a76028ae3a7a0091b8b06eb5f50fab645199627eeb160366aec01089979ea"
+    },
+    "current_state_identifier": {
+        "state_version": 79480807,
+        "transaction_accumulator": "f2a08da493929bb4532f499a058b18066a5254d88f5ed0e7e8c759fbc2e617ff"
+    },
+    "sync_status": {
+        "current_state_version": 79480807,
+        "target_state_version": 115070450
+    },
+    "peers": [
+        {
+            "peer_id": "tn1qvgnymu94dw5gfug2e678x9h0puupk8vkm0z0083744jscukqvgsxjpgrnr"
+        },
+        {
+            "peer_id": "tn1qwncrjmeg5mhx30g8nqyluh6vjj3lheakjglhvqjmguxtdg2je0lj6fjwh3"
+        },
+        {
+            "peer_id": "tn1q2rqdxve8qmq9vcxfdff44q02pgzvwe89kjpmpwhrnfkfcecyh7rsa6nkxg"
+        },
+        {
+            "peer_id": "tn1qww9pj98l4jy3wlzw85yerte8780n9qx7crgx5fks56lzzu85dtdsxjamtv"
+        },
+        {
+            "peer_id": "tn1qfdg2lc80rcpmz6l2hvuhpg8tygtpqzwf2uce46pxeudu05qa5n6z4j6rja"
+        },
+        {
+            "peer_id": "tn1qdhf7aeat739n77e227l3vgvv56kntp20ennaj38t5jc8988r5s2zxzxp77"
+        },
+        {
+            "peer_id": "tn1qd3gc92d62d75nwhtp4hem6ux0x6gc06x89tz6cwvzdw7dd6mpuzc6xfd9k"
+        },
+        {
+            "peer_id": "tn1qwz237kqdpct5l3yjhmna66uxja2ymrf3x6hh528ng3gtvnwndtn5d8q7h2"
+        },
+        {
+            "peer_id": "tn1q260gnzmdqk8sxje4wpdqf2gghezwmqgdjh98prn07vewk3v2ywpq3v3q9m"
+        },
+        {
+            "peer_id": "tn1qtx35eknnnefue4wdra9j3ugld0j5hlpfmnr36npjydranz3d4ys6wpnm3a"
+        },
+        {
+            "peer_id": "tn1q0y2jjqgemt3lalemr9nvcu6gl8lrv79rrew7u24evgelf0xe3dfkerc4vh"
+        },
+        {
+            "peer_id": "tn1qwxyyc5u2kd2l7qy6wqr422uwf3vymq3yxtl0sm8d7vplvegfteswfn4fau"
+        },
+        {
+            "peer_id": "tn1qtlkspmgttnksgayv7gkked4k49yhxqlaysnypupkvjgfqf7h5zqxtupl8p"
+        },
+        {
+            "peer_id": "tn1qt9kqzzqyj27zv4n67f2jrzgd24hsxfwe8d4kw9j4msze7rpdg3guvk07jy"
+        },
+        {
+            "peer_id": "tn1qgc5qaja4gj0gwlfm8tx7kxkzfsznxx6rzxs0dzeqxqmg7e7yf38wny8zs0"
+        },
+        {
+            "peer_id": "tn1q0anqsh4e26x3c43mcxgnne2es5e78327pkhx6vk2jn2ef6mqzz0jyu92s5"
+        },
+        {
+            "peer_id": "tn1qv89yg0la2jt429vqp8sxtpg95hj637gards67gpgqy2vuvwe4s5s7c07sm"
+        },
+        {
+            "peer_id": "tn1qg5ndph25k86ppxvw4gldx4tdahy9za9yqsmvcgw3e6sdy3l4dxg6m7xvzq"
+        },
+        {
+            "peer_id": "tn1qd7np2pv88xnyavg5wu3karl68w2gjwq8ja58fcuqdfa6n3kpwh76a5et39"
+        },
+        {
+            "peer_id": "tn1qgpfz7saygrkdqm9qyyeyh4pp3snmta5wmxnftpc6v3uggja3msukqkgzgn"
+        },
+        {
+            "peer_id": "tn1qvu75s52hz8k2dq6pesed07mwrur3frq0mvvdu9d700txpx80jzljde4hzg"
+        },
+        {
+            "peer_id": "tn1q0g9zpvv2ggw99fz86q52csdjk2t0ynqz0r0e23xhdszx3r7sv9jyx84lc4"
+        },
+        {
+            "peer_id": "tn1qfzy56n7wsspqjn8kal8n4ls9rs6lth3x6fzqhhdgqa7emwqz9w8j0xp4e3"
+        },
+        {
+            "peer_id": "tn1qvluh8d3e6uxnm2k0h6zfnng0r7hkgcd8ppjn8slzyhs7vqlavw0va9de6q"
+        },
+        {
+            "peer_id": "tn1qw3dyujr8ss29648wfqzenwx7el08yj6mpru6z62hxzlh9n3sgwwqdkl295"
+        },
+        {
+            "peer_id": "tn1qwhvzdmrz5dfkndlerlp6qhf3ew3dnlsq23xf54f62lpmk2eu63z2zg0tyc"
+        },
+        {
+            "peer_id": "tn1qvtd9ffdhxyg7meqggr2ezsdfgjre5aqs6jwk5amdhjg86xhurgn5kfxgl5"
+        },
+        {
+            "peer_id": "tn1qfgg3rgdg4puvzaws9k53kgr3agth6c9z9e3ypm64zge7glj0qesqme8qwf"
+        },
+        {
+            "peer_id": "tn1qdg87mk4gr8dlmfv82y9cqleqkcjm0fxlxe8vhcxvskd3k90jcmgk4ewsmw"
+        },
+        {
+            "peer_id": "tn1qwarfqpt3u592t3mkq6wx3fush8sp3t45588u0mexr63uhxntcxwkjpaqjx"
+        },
+        {
+            "peer_id": "tn1qv9f8ys7ade4khjyr2s6zlhuxjqvhzz39kvjskupaj9lvhl3lwxauc67nn8"
+        },
+        {
+            "peer_id": "tn1q2wdqrewadqkhasxtjjk47x496ukj95zagufeq05pushet5acgnnky5axg8"
+        },
+        {
+            "peer_id": "tn1qwfh2nn0zx8cut5fqfz6n7pau2f7vdyl89mypldnn4fwlhaeg2tvuakynag"
+        },
+        {
+            "peer_id": "tn1qd8jmck6zmns4mpe2dpjndw92qtxpj4j0lm3fwk96f68xc63kmjt6gx8w6y"
+        },
+        {
+            "peer_id": "tn1q28eygvxshszxk48jhjxdmyne06m3x6hfyvxg7a45qt8cksffx6z7uu6392"
+        },
+        {
+            "peer_id": "tn1qw2hfn7q7ywyff79h74f69jd6p2r7ec2n9vp58hadr4hz6zzkhh27uq25rh"
+        },
+        {
+            "peer_id": "tn1q2j4n0cg9at8up9xccy335jkznugvve25eyp0qh3engx6xd0y2qeg8hxgy5"
+        },
+        {
+            "peer_id": "tn1qf9jr3qfdfyshv2u3hfh28rfjy53y297ykw4sasgylnqajdcygujz26f9ny"
+        },
+        {
+            "peer_id": "tn1q2hs6rwjg8jscllzmp4dage6tjuequwhdvrnvx86vpw5g68zyxl9j7x87n2"
+        },
+        {
+            "peer_id": "tn1qtr4ts8ffzrh5w664pvx00ywn3eacpmy5uhvuv286vmauukyf3tq22cs42g"
+        },
+        {
+            "peer_id": "tn1q050yda7ek7lvchnwh9kj9955mz9sz05mjw5thcz90z80zvvjcu3ktejs83"
+        },
+        {
+            "peer_id": "tn1qdp5h0nht2tkxel4n9ncygtc0szrum6krpwdx0mszytsgkfn6vkr6r8vrv4"
+        }
+    ]
+}

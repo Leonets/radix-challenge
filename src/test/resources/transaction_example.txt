@@ -1,0 +1,3256 @@
+{
+    "state_identifier": {
+        "state_version": 10000,
+        "transaction_accumulator": "794673005d4afe768c280c536674e83b5ee0cfa3fa07e18372888e1ede44cab0"
+    },
+    "transactions": [
+        {
+            "transaction_identifier": {
+                "hash": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f3"
+            },
+            "committed_state_identifier": {
+                "state_version": 10050,
+                "transaction_accumulator": "ef80f85e05aad90e6979a5d54d762351c31fea97c8a9633e841950e790ea6caa"
+            },
+            "operation_groups": [
+                {
+                    "operations": [
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "system"
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "907d5bcb4c7ef7595e0cab52408c7acfb18c7a7b328c33bdcdb6d48460da94c400000001"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "round": 10000,
+                                    "timestamp": 1627344392059,
+                                    "type": "RoundData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "system"
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000e5"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "epoch": 1,
+                                    "type": "EpochData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwncrjmeg5mhx30g8nqyluh6vjj3lheakjglhvqjmguxtdg2je0ljz6c7m0",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "0316815f1219a020221aa75094c2ffc80b0da3252f335007a9109be7cd3fe21400000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qd3gc92d62d75nwhtp4hem6ux0x6gc06x89tz6cwvzdw7dd6mpuzcz4rafg",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "1b3fcc337d1ca41b73f4f6444625264a5db003b72d1986a84f51376da98af68000000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qv9f8ys7ade4khjyr2s6zlhuxjqvhzz39kvjskupaj9lvhl3lwxauqf5rle",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "2da52926181c854598efd726a20713d3a99cc83072f0adb3762833eae1ad85c000000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1q2j4n0cg9at8up9xccy335jkznugvve25eyp0qh3engx6xd0y2qeglyvcg2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "377e69c3b1bd43bea9582069d0ff48dccdc2c98b9d148d2c5c9b9cc8232eb9dc00000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1q050yda7ek7lvchnwh9kj9955mz9sz05mjw5thcz90z80zvvjcu3kn2cqt0",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "624839f9b99b18bec046edfc55845af3ee476d1f8823fbf4eb9b7e73d717830a00000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1q2hs6rwjg8jscllzmp4dage6tjuequwhdvrnvx86vpw5g68zyxl9jx4dwl5",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "6626434b7d145ac15d2304a83e0a3ba2d191701667f530258c4d5992aecdf64b00000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qtlkspmgttnksgayv7gkked4k49yhxqlaysnypupkvjgfqf7h5zqxn0t0tl",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "664cb715a1cf554314c042bb866acbb3904f9040a36a5facd725ebb5928888d900000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwhvzdmrz5dfkndlerlp6qhf3ew3dnlsq23xf54f62lpmk2eu63z26m9mgx",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "6fdad51a7bd8b9e16c4a69ed8eec5603e18173c1633f5b612f08066f30e0171800000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qg5ndph25k86ppxvw4gldx4tdahy9za9yqsmvcgw3e6sdy3l4dxg6rdvuw7",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "776ff037e43a26f89f3529740c8e0607364310695a0da5e9dbf9a4784ca3123500000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 1,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qgpfz7saygrkdqm9qyyeyh4pp3snmta5wmxnftpc6v3uggja3msukc9zjyd",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "83552f965aa5c6fc78acd9b3c64902c7283ee123a5c69c139a8a52afef6c20fb00000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qv89yg0la2jt429vqp8sxtpg95hj637gards67gpgqy2vuvwe4s5sxt9wu9",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "86c0aa64af8cd6475bf51b9e24de8bf3436ca27310fb832a9b93897be81078f600000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qd7np2pv88xnyavg5wu3karl68w2gjwq8ja58fcuqdfa6n3kpwh7698nmam",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "8f9535d0c12549d4ee63560ec86dab7ccb7b3ee4cc89c30b44ea79a5c6262e4c00000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwz237kqdpct5l3yjhmna66uxja2ymrf3x6hh528ng3gtvnwndtn5452wm5",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "907d5bcb4c7ef7595e0cab52408c7acfb18c7a7b328c33bdcdb6d48460da94c400000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qvu75s52hz8k2dq6pesed07mwrur3frq0mvvdu9d700txpx80jzlj42l8wk",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "97ba05d53cbed1a0b64c0d4cf7e89c896bc96a04be36fcf6f8172d2df6e95a6100000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwxyyc5u2kd2l7qy6wqr422uwf3vymq3yxtl0sm8d7vplvegftesw3qle3z",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "9856853f2f72a0e16609c35c355e21dad672f7cf5a54f181b3da3fc7024c7c0400000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qfdg2lc80rcpmz6l2hvuhpg8tygtpqzwf2uce46pxeudu05qa5n6zdpsn7r",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "9c6df9f84632ff9ce3a2d00ca1c35593edf1948fc1cd1e3389cb1f62abc8982800000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwfh2nn0zx8cut5fqfz6n7pau2f7vdyl89mypldnn4fwlhaeg2tvu99wr3k",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "9d56f28ebe877bf4b91139c9a74ceec7666ac2eb119882e63d934f4a4e5fac2b00000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qfgg3rgdg4puvzaws9k53kgr3agth6c9z9e3ypm64zge7glj0qesqr2dszh",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "bbb6762a068d048cfdee37eff5bde962d632880ab2d423ba672fa67eafbd8ba800000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qtr4ts8ffzrh5w664pvx00ywn3eacpmy5uhvuv286vmauukyf3tq2jt69xk",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "be3d6a2022c4d102d42309c358f989ba450e7538462c7ee470dbb9a4714c731f00000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qvtd9ffdhxyg7meqggr2ezsdfgjre5aqs6jwk5amdhjg86xhurgn5w6vcn2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "c6bb5b6999a2dd309c5b5b860d2fd6aeacdc534a2b5a867ea130866806db213600000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qtx35eknnnefue4wdra9j3ugld0j5hlpfmnr36npjydranz3d4ys6kjetar",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "e2acb9a87745aca253f919a84e977d5535d342c175d4eb1b60e19709477c519900000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1q0anqsh4e26x3c43mcxgnne2es5e78327pkhx6vk2jn2ef6mqzz0ju006u2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "ed04b786e8f7cefe72b6f1a7f092c487b2c4fb575052a0adb08dbd33da98856c00000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwarfqpt3u592t3mkq6wx3fush8sp3t45588u0mexr63uhxntcxwk2jhs7c",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "f2dd6b383685c4abbef43ea1b6d94d4eb023b92549690544bbbc8488bf3db09700000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 416,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qdp5h0nht2tkxel4n9ncygtc0szrum6krpwdx0mszytsgkfn6vkr6m5xnqt",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "fb1362cd48da45aadf67e631c96d7a311fc6540163ed81b7bad627a1c8107db000000000"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "proposals_completed": 417,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qgpfz7saygrkdqm9qyyeyh4pp3snmta5wmxnftpc6v3uggja3msukc9zjyd",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b5"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspq9yt6r53qwe5rv5qsnyj75yxxz0d0k3mv6d9v8rfj83pztk8wrjczwyamv"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qg5ndph25k86ppxvw4gldx4tdahy9za9yqsmvcgw3e6sdy3l4dxg6rdvuw7",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b6"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspzjd5xa2jclgyye364ra564dhkus5t55szrdnpp6882p5j8745erg3ler6r"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qfgg3rgdg4puvzaws9k53kgr3agth6c9z9e3ypm64zge7glj0qesqr2dszh",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b7"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp9pzydp4z583st46qk6jxeqw84pwltq5ghxys8025fr8er7furxqqvk80rx"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qfdg2lc80rcpmz6l2hvuhpg8tygtpqzwf2uce46pxeudu05qa5n6zdpsn7r",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b8"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp94ptlqau0q8vtta2anju9qav3pvyqfe9tnrxhgym83h37srkj0ggf5n2r2"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1q2j4n0cg9at8up9xccy335jkznugvve25eyp0qh3engx6xd0y2qeglyvcg2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b9"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp22kdlpqh4vlsy5mrqjxxj2c203p3n92nys9uz78xdqmge4u3gr9qqnrt60"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1q2hs6rwjg8jscllzmp4dage6tjuequwhdvrnvx86vpw5g68zyxl9jx4dwl5",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000ba"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp27rgd6fq72rrlutvx4h4r8fwtnyr36a4swdsclfs963rgugsmukgwmrmv5"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qtr4ts8ffzrh5w664pvx00ywn3eacpmy5uhvuv286vmauukyf3tq2jt69xk",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000bb"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspvw4wqa9ygw73mt259seau36w88hq8vjnjan33glfn0hnjc3x9vpgy7x2sv"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qtx35eknnnefue4wdra9j3ugld0j5hlpfmnr36npjydranz3d4ys6kjetar",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000bc"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspv6xnx6ww098nx4e505k283ra472jlu98wvw82vxg350kv29k5jrgj63x07"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qtlkspmgttnksgayv7gkked4k49yhxqlaysnypupkvjgfqf7h5zqxn0t0tl",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000bd"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp076q8dpdww6pr53nez6m9kk655jucrl5jzvs8sxejfpyp867sgqcpa6g7r"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qv9f8ys7ade4khjyr2s6zlhuxjqvhzz39kvjskupaj9lvhl3lwxauqf5rle",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000be"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsps4yujrm4hxk67gsd2rgt7ls6gpjug2ykej2zms8kghajl78acmhsdjrrls"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qv89yg0la2jt429vqp8sxtpg95hj637gards67gpgqy2vuvwe4s5sxt9wu9",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000bf"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspsu53pll42fw4g4sqy7qev9qkj7t28er5dkrteq9qq3fn33mxkzjqygq8j0"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qvtd9ffdhxyg7meqggr2ezsdfgjre5aqs6jwk5amdhjg86xhurgn5w6vcn2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c0"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp3d5499kuc3rm0yppqdty2p49zg0xn5zr2f66nhdk7fqlg6lsdzwsaa74hf"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qvu75s52hz8k2dq6pesed07mwrur3frq0mvvdu9d700txpx80jzlj42l8wk",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c1"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspnn6jz32ug7ef5rg8xr94lmdc0sw9yvpld33hs4heaavcyca7gt7gew5zqf"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qdp5h0nht2tkxel4n9ncygtc0szrum6krpwdx0mszytsgkfn6vkr6m5xnqt",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c2"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp5xja7wadfwcm87kvk0q3p0p7qg0n02cv9e5elwqg3wpzex0fjc0gm2wjke"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qd3gc92d62d75nwhtp4hem6ux0x6gc06x89tz6cwvzdw7dd6mpuzcz4rafg",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c3"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspk9rq4fhffh6jd6avxkl80tseumfrplgcu4vttpesf4me4htv8stqe5qc0r"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qd7np2pv88xnyavg5wu3karl68w2gjwq8ja58fcuqdfa6n3kpwh7698nmam",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c4"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsph6v9g9suu6vn43z3mjxm50lgaefzfcq7tksa8rsp48h2wxc96lmg8q64tu"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwz237kqdpct5l3yjhmna66uxja2ymrf3x6hh528ng3gtvnwndtn5452wm5",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c5"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspcf286cp58pwn7yj2lw0htts6t4gnvdxym2773g7dz9pdjd6d4wwsh4ldr7"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwxyyc5u2kd2l7qy6wqr422uwf3vymq3yxtl0sm8d7vplvegftesw3qle3z",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c6"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspccsnzn32e4tlcqnfcqw4ft3ex9snvzyse0a7rvahes8an9p90xpc4s0f0z"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwfh2nn0zx8cut5fqfz6n7pau2f7vdyl89mypldnn4fwlhaeg2tvu99wr3k",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c7"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspexa2wdugclr3w3ypyt20c8h3f8e35nuuhvs8akww49m7lh9pfdnse5wr93"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwncrjmeg5mhx30g8nqyluh6vjj3lheakjglhvqjmguxtdg2je0ljz6c7m0",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c8"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp60qwt09znwu69aq7vqnljlfj2287l8k6fr7asztdrsed4p2t9l7glxy5vx"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwhvzdmrz5dfkndlerlp6qhf3ew3dnlsq23xf54f62lpmk2eu63z26m9mgx",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c9"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp6asfhvv234x6dhly0u8gzax8969k07qp2yexj48ftu8wet8n2yfg6nl6ej"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwarfqpt3u592t3mkq6wx3fush8sp3t45588u0mexr63uhxntcxwk2jhs7c",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000ca"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspm5dyq9w8js4fw8wcrfc698jzu7qx9wkjsul3l0yc028ju6d0qe6clv0mdj"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1q050yda7ek7lvchnwh9kj9955mz9sz05mjw5thcz90z80zvvjcu3kn2cqt0",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000cb"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp73u3hhmxmmanz7d6uk6g5kjnvgkqf7nwf63wlqg4ugauf3jtrjxcz92w42"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1q0anqsh4e26x3c43mcxgnne2es5e78327pkhx6vk2jn2ef6mqzz0ju006u2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "SHUTDOWN",
+                                "substate_identifier": {
+                                    "identifier": "54347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000cc"
+                                }
+                            },
+                            "amount": {
+                                "value": "-200000000000000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "DELETE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsplkvzz7h9tg68zk80qezw09txzn8c79tcx6umfje22dt98tvqgf7gqfhd90"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspq9yt6r53qwe5rv5qsnyj75yxxz0d0k3mv6d9v8rfj83pztk8wrjczwyamv"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000000"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qgpfz7saygrkdqm9qyyeyh4pp3snmta5wmxnftpc6v3uggja3msukc9zjyd",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspzjd5xa2jclgyye364ra564dhkus5t55szrdnpp6882p5j8745erg3ler6r"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000001"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qg5ndph25k86ppxvw4gldx4tdahy9za9yqsmvcgw3e6sdy3l4dxg6rdvuw7",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp9pzydp4z583st46qk6jxeqw84pwltq5ghxys8025fr8er7furxqqvk80rx"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000002"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qfgg3rgdg4puvzaws9k53kgr3agth6c9z9e3ypm64zge7glj0qesqr2dszh",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp94ptlqau0q8vtta2anju9qav3pvyqfe9tnrxhgym83h37srkj0ggf5n2r2"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000003"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qfdg2lc80rcpmz6l2hvuhpg8tygtpqzwf2uce46pxeudu05qa5n6zdpsn7r",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp22kdlpqh4vlsy5mrqjxxj2c203p3n92nys9uz78xdqmge4u3gr9qqnrt60"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000004"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1q2j4n0cg9at8up9xccy335jkznugvve25eyp0qh3engx6xd0y2qeglyvcg2",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp27rgd6fq72rrlutvx4h4r8fwtnyr36a4swdsclfs963rgugsmukgwmrmv5"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000005"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1q2hs6rwjg8jscllzmp4dage6tjuequwhdvrnvx86vpw5g68zyxl9jx4dwl5",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspvw4wqa9ygw73mt259seau36w88hq8vjnjan33glfn0hnjc3x9vpgy7x2sv"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000006"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qtr4ts8ffzrh5w664pvx00ywn3eacpmy5uhvuv286vmauukyf3tq2jt69xk",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspv6xnx6ww098nx4e505k283ra472jlu98wvw82vxg350kv29k5jrgj63x07"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000007"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qtx35eknnnefue4wdra9j3ugld0j5hlpfmnr36npjydranz3d4ys6kjetar",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp076q8dpdww6pr53nez6m9kk655jucrl5jzvs8sxejfpyp867sgqcpa6g7r"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000008"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qtlkspmgttnksgayv7gkked4k49yhxqlaysnypupkvjgfqf7h5zqxn0t0tl",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsps4yujrm4hxk67gsd2rgt7ls6gpjug2ykej2zms8kghajl78acmhsdjrrls"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000009"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qv9f8ys7ade4khjyr2s6zlhuxjqvhzz39kvjskupaj9lvhl3lwxauqf5rle",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspsu53pll42fw4g4sqy7qev9qkj7t28er5dkrteq9qq3fn33mxkzjqygq8j0"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000000a"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qv89yg0la2jt429vqp8sxtpg95hj637gards67gpgqy2vuvwe4s5sxt9wu9",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp3d5499kuc3rm0yppqdty2p49zg0xn5zr2f66nhdk7fqlg6lsdzwsaa74hf"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000000b"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qvtd9ffdhxyg7meqggr2ezsdfgjre5aqs6jwk5amdhjg86xhurgn5w6vcn2",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspnn6jz32ug7ef5rg8xr94lmdc0sw9yvpld33hs4heaavcyca7gt7gew5zqf"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000000c"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qvu75s52hz8k2dq6pesed07mwrur3frq0mvvdu9d700txpx80jzlj42l8wk",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp5xja7wadfwcm87kvk0q3p0p7qg0n02cv9e5elwqg3wpzex0fjc0gm2wjke"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000000d"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qdp5h0nht2tkxel4n9ncygtc0szrum6krpwdx0mszytsgkfn6vkr6m5xnqt",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspk9rq4fhffh6jd6avxkl80tseumfrplgcu4vttpesf4me4htv8stqe5qc0r"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000000e"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qd3gc92d62d75nwhtp4hem6ux0x6gc06x89tz6cwvzdw7dd6mpuzcz4rafg",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsph6v9g9suu6vn43z3mjxm50lgaefzfcq7tksa8rsp48h2wxc96lmg8q64tu"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000000f"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qd7np2pv88xnyavg5wu3karl68w2gjwq8ja58fcuqdfa6n3kpwh7698nmam",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspcf286cp58pwn7yj2lw0htts6t4gnvdxym2773g7dz9pdjd6d4wwsh4ldr7"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000010"
+                                }
+                            },
+                            "amount": {
+                                "value": "962310900000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qwz237kqdpct5l3yjhmna66uxja2ymrf3x6hh528ng3gtvnwndtn5452wm5",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspccsnzn32e4tlcqnfcqw4ft3ex9snvzyse0a7rvahes8an9p90xpc4s0f0z"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000011"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qwxyyc5u2kd2l7qy6wqr422uwf3vymq3yxtl0sm8d7vplvegftesw3qle3z",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspexa2wdugclr3w3ypyt20c8h3f8e35nuuhvs8akww49m7lh9pfdnse5wr93"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000012"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qwfh2nn0zx8cut5fqfz6n7pau2f7vdyl89mypldnn4fwlhaeg2tvu99wr3k",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp60qwt09znwu69aq7vqnljlfj2287l8k6fr7asztdrsed4p2t9l7glxy5vx"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000013"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qwncrjmeg5mhx30g8nqyluh6vjj3lheakjglhvqjmguxtdg2je0ljz6c7m0",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp6asfhvv234x6dhly0u8gzax8969k07qp2yexj48ftu8wet8n2yfg6nl6ej"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000014"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qwhvzdmrz5dfkndlerlp6qhf3ew3dnlsq23xf54f62lpmk2eu63z26m9mgx",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qspm5dyq9w8js4fw8wcrfc698jzu7qx9wkjsul3l0yc028ju6d0qe6clv0mdj"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000015"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1qwarfqpt3u592t3mkq6wx3fush8sp3t45588u0mexr63uhxntcxwk2jhs7c",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsp73u3hhmxmmanz7d6uk6g5kjnvgkqf7nwf63wlqg4ugauf3jtrjxcz92w42"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000016"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1q050yda7ek7lvchnwh9kj9955mz9sz05mjw5thcz90z80zvvjcu3kn2cqt0",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Resource",
+                            "entity_identifier": {
+                                "address": "tdx1qsplkvzz7h9tg68zk80qezw09txzn8c79tcx6umfje22dt98tvqgf7gqfhd90"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000017"
+                                }
+                            },
+                            "amount": {
+                                "value": "960003200000000000000",
+                                "resource_identifier": {
+                                    "validator_address": "tv1q0anqsh4e26x3c43mcxgnne2es5e78327pkhx6vk2jn2ef6mqzz0ju006u2",
+                                    "type": "StakeUnit"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qgpfz7saygrkdqm9qyyeyh4pp3snmta5wmxnftpc6v3uggja3msukc9zjyd",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000018"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspq9yt6r53qwe5rv5qsnyj75yxxz0d0k3mv6d9v8rfj83pztk8wrjczwyamv"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qg5ndph25k86ppxvw4gldx4tdahy9za9yqsmvcgw3e6sdy3l4dxg6rdvuw7",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000019"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspzjd5xa2jclgyye364ra564dhkus5t55szrdnpp6882p5j8745erg3ler6r"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qfgg3rgdg4puvzaws9k53kgr3agth6c9z9e3ypm64zge7glj0qesqr2dszh",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000001a"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp9pzydp4z583st46qk6jxeqw84pwltq5ghxys8025fr8er7furxqqvk80rx"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qfdg2lc80rcpmz6l2hvuhpg8tygtpqzwf2uce46pxeudu05qa5n6zdpsn7r",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000001b"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp94ptlqau0q8vtta2anju9qav3pvyqfe9tnrxhgym83h37srkj0ggf5n2r2"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1q2j4n0cg9at8up9xccy335jkznugvve25eyp0qh3engx6xd0y2qeglyvcg2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000001c"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp22kdlpqh4vlsy5mrqjxxj2c203p3n92nys9uz78xdqmge4u3gr9qqnrt60"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1q2hs6rwjg8jscllzmp4dage6tjuequwhdvrnvx86vpw5g68zyxl9jx4dwl5",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000001d"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp27rgd6fq72rrlutvx4h4r8fwtnyr36a4swdsclfs963rgugsmukgwmrmv5"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qtr4ts8ffzrh5w664pvx00ywn3eacpmy5uhvuv286vmauukyf3tq2jt69xk",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000001e"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspvw4wqa9ygw73mt259seau36w88hq8vjnjan33glfn0hnjc3x9vpgy7x2sv"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qtx35eknnnefue4wdra9j3ugld0j5hlpfmnr36npjydranz3d4ys6kjetar",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000001f"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspv6xnx6ww098nx4e505k283ra472jlu98wvw82vxg350kv29k5jrgj63x07"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qtlkspmgttnksgayv7gkked4k49yhxqlaysnypupkvjgfqf7h5zqxn0t0tl",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000020"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp076q8dpdww6pr53nez6m9kk655jucrl5jzvs8sxejfpyp867sgqcpa6g7r"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qv9f8ys7ade4khjyr2s6zlhuxjqvhzz39kvjskupaj9lvhl3lwxauqf5rle",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000021"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsps4yujrm4hxk67gsd2rgt7ls6gpjug2ykej2zms8kghajl78acmhsdjrrls"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qv89yg0la2jt429vqp8sxtpg95hj637gards67gpgqy2vuvwe4s5sxt9wu9",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000022"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspsu53pll42fw4g4sqy7qev9qkj7t28er5dkrteq9qq3fn33mxkzjqygq8j0"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qvtd9ffdhxyg7meqggr2ezsdfgjre5aqs6jwk5amdhjg86xhurgn5w6vcn2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000023"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp3d5499kuc3rm0yppqdty2p49zg0xn5zr2f66nhdk7fqlg6lsdzwsaa74hf"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qvu75s52hz8k2dq6pesed07mwrur3frq0mvvdu9d700txpx80jzlj42l8wk",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000024"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspnn6jz32ug7ef5rg8xr94lmdc0sw9yvpld33hs4heaavcyca7gt7gew5zqf"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qdp5h0nht2tkxel4n9ncygtc0szrum6krpwdx0mszytsgkfn6vkr6m5xnqt",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000025"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp5xja7wadfwcm87kvk0q3p0p7qg0n02cv9e5elwqg3wpzex0fjc0gm2wjke"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qd3gc92d62d75nwhtp4hem6ux0x6gc06x89tz6cwvzdw7dd6mpuzcz4rafg",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000026"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspk9rq4fhffh6jd6avxkl80tseumfrplgcu4vttpesf4me4htv8stqe5qc0r"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qd7np2pv88xnyavg5wu3karl68w2gjwq8ja58fcuqdfa6n3kpwh7698nmam",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000027"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsph6v9g9suu6vn43z3mjxm50lgaefzfcq7tksa8rsp48h2wxc96lmg8q64tu"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwz237kqdpct5l3yjhmna66uxja2ymrf3x6hh528ng3gtvnwndtn5452wm5",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000028"
+                                }
+                            },
+                            "amount": {
+                                "value": "200962310900000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspcf286cp58pwn7yj2lw0htts6t4gnvdxym2773g7dz9pdjd6d4wwsh4ldr7"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwxyyc5u2kd2l7qy6wqr422uwf3vymq3yxtl0sm8d7vplvegftesw3qle3z",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000029"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspccsnzn32e4tlcqnfcqw4ft3ex9snvzyse0a7rvahes8an9p90xpc4s0f0z"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwfh2nn0zx8cut5fqfz6n7pau2f7vdyl89mypldnn4fwlhaeg2tvu99wr3k",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000002a"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspexa2wdugclr3w3ypyt20c8h3f8e35nuuhvs8akww49m7lh9pfdnse5wr93"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwncrjmeg5mhx30g8nqyluh6vjj3lheakjglhvqjmguxtdg2je0ljz6c7m0",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000002b"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp60qwt09znwu69aq7vqnljlfj2287l8k6fr7asztdrsed4p2t9l7glxy5vx"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwhvzdmrz5dfkndlerlp6qhf3ew3dnlsq23xf54f62lpmk2eu63z26m9mgx",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000002c"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp6asfhvv234x6dhly0u8gzax8969k07qp2yexj48ftu8wet8n2yfg6nl6ej"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1qwarfqpt3u592t3mkq6wx3fush8sp3t45588u0mexr63uhxntcxwk2jhs7c",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000002d"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qspm5dyq9w8js4fw8wcrfc698jzu7qx9wkjsul3l0yc028ju6d0qe6clv0mdj"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1q050yda7ek7lvchnwh9kj9955mz9sz05mjw5thcz90z80zvvjcu3kn2cqt0",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000002e"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsp73u3hhmxmmanz7d6uk6g5kjnvgkqf7nwf63wlqg4ugauf3jtrjxcz92w42"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ResourceAndData",
+                            "entity_identifier": {
+                                "address": "tv1q0anqsh4e26x3c43mcxgnne2es5e78327pkhx6vk2jn2ef6mqzz0ju006u2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000002f"
+                                }
+                            },
+                            "amount": {
+                                "value": "200960003200000000000000",
+                                "resource_identifier": {
+                                    "rri": "xrd_tr1qyf0x76s",
+                                    "type": "Token"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "owner": {
+                                        "address": "tdx1qsplkvzz7h9tg68zk80qezw09txzn8c79tcx6umfje22dt98tvqgf7gqfhd90"
+                                    },
+                                    "registered": true,
+                                    "fee": 10000,
+                                    "type": "ValidatorData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwz237kqdpct5l3yjhmna66uxja2ymrf3x6hh528ng3gtvnwndtn5452wm5",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000030"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qd7np2pv88xnyavg5wu3karl68w2gjwq8ja58fcuqdfa6n3kpwh7698nmam",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000031"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qd3gc92d62d75nwhtp4hem6ux0x6gc06x89tz6cwvzdw7dd6mpuzcz4rafg",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000032"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qdp5h0nht2tkxel4n9ncygtc0szrum6krpwdx0mszytsgkfn6vkr6m5xnqt",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000033"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qvu75s52hz8k2dq6pesed07mwrur3frq0mvvdu9d700txpx80jzlj42l8wk",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000034"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qvtd9ffdhxyg7meqggr2ezsdfgjre5aqs6jwk5amdhjg86xhurgn5w6vcn2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000035"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qv89yg0la2jt429vqp8sxtpg95hj637gards67gpgqy2vuvwe4s5sxt9wu9",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000036"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qv9f8ys7ade4khjyr2s6zlhuxjqvhzz39kvjskupaj9lvhl3lwxauqf5rle",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000037"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qtlkspmgttnksgayv7gkked4k49yhxqlaysnypupkvjgfqf7h5zqxn0t0tl",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000038"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qtx35eknnnefue4wdra9j3ugld0j5hlpfmnr36npjydranz3d4ys6kjetar",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000039"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qtr4ts8ffzrh5w664pvx00ywn3eacpmy5uhvuv286vmauukyf3tq2jt69xk",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000003a"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1q2hs6rwjg8jscllzmp4dage6tjuequwhdvrnvx86vpw5g68zyxl9jx4dwl5",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000003b"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1q2j4n0cg9at8up9xccy335jkznugvve25eyp0qh3engx6xd0y2qeglyvcg2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000003c"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qfdg2lc80rcpmz6l2hvuhpg8tygtpqzwf2uce46pxeudu05qa5n6zdpsn7r",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000003d"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qfgg3rgdg4puvzaws9k53kgr3agth6c9z9e3ypm64zge7glj0qesqr2dszh",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000003e"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1q0anqsh4e26x3c43mcxgnne2es5e78327pkhx6vk2jn2ef6mqzz0ju006u2",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f30000003f"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1q050yda7ek7lvchnwh9kj9955mz9sz05mjw5thcz90z80zvvjcu3kn2cqt0",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000040"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwarfqpt3u592t3mkq6wx3fush8sp3t45588u0mexr63uhxntcxwk2jhs7c",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000041"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwhvzdmrz5dfkndlerlp6qhf3ew3dnlsq23xf54f62lpmk2eu63z26m9mgx",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000042"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwncrjmeg5mhx30g8nqyluh6vjj3lheakjglhvqjmguxtdg2je0ljz6c7m0",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000043"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwfh2nn0zx8cut5fqfz6n7pau2f7vdyl89mypldnn4fwlhaeg2tvu99wr3k",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000044"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qwxyyc5u2kd2l7qy6wqr422uwf3vymq3yxtl0sm8d7vplvegftesw3qle3z",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000045"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qg5ndph25k86ppxvw4gldx4tdahy9za9yqsmvcgw3e6sdy3l4dxg6rdvuw7",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000046"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "tv1qgpfz7saygrkdqm9qyyeyh4pp3snmta5wmxnftpc6v3uggja3msukc9zjyd",
+                                "sub_entity": {
+                                    "address": "system"
+                                }
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000047"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "proposals_completed": 0,
+                                    "proposals_missed": 0,
+                                    "type": "ValidatorBFTData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "system"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000048"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "epoch": 2,
+                                    "type": "EpochData"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Data",
+                            "entity_identifier": {
+                                "address": "system"
+                            },
+                            "substate": {
+                                "substate_operation": "BOOTUP",
+                                "substate_identifier": {
+                                    "identifier": "e680d6d7786487de06ab59afe969e23c029b67b3eff9a65c4d172cebc26c08f300000049"
+                                }
+                            },
+                            "data": {
+                                "action": "CREATE",
+                                "data_object": {
+                                    "round": 0,
+                                    "timestamp": 1627344392059,
+                                    "type": "RoundData"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "metadata": {
+                "size": 8246,
+                "hex": "07907d5bcb4c7ef7595e0cab52408c7acfb18c7a7b328c33bdcdb6d48460da94c4000000010754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000e50f000a0a0000000000000000020f00010d0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b50754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b60754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b70754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b80754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000b90754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000ba0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000bb0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000bc0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000bd0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000be0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000bf0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c00754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c10754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c20754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c30754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c40754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c50754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c60754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c70754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c80754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000c90754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000ca0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000cb0754347c2a10a8f09efd8398ed4b259909a3f848cc9fa05ca20e225f8bfb1d2d1a000000cc0f0001090f00010702006508000202917a1d22076683650109925ea10c613dafb476cd34ac38d323c4225d8ee1cb040202917a1d22076683650109925ea10c613dafb476cd34ac38d323c4225d8ee1cb0000000000000000000000000000000000000000000000340ab88015c6480000020065080002293686eaa58fa084cc7551f69aab6f6e428ba52021b6610e8e7506923fab4c8d0402293686eaa58fa084cc7551f69aab6f6e428ba52021b6610e8e7506923fab4c8d0000000000000000000000000000000000000000000000340ab88015c648000002006508000250888d0d4543c60bae816d48d9038f50bbeb05117312077aa8919f23f2783300040250888d0d4543c60bae816d48d9038f50bbeb05117312077aa8919f23f27833000000000000000000000000000000000000000000000000342abf1902227340000200650800025a857f0778f01d8b5f55d9cb85075910b0804e4ab98cd7413678de3e80ed27a104025a857f0778f01d8b5f55d9cb85075910b0804e4ab98cd7413678de3e80ed27a10000000000000000000000000000000000000000000000342abf190222734000020065080002a559bf082f567e04a6c60918d25614f886332aa6481782f1ccd06d19af2281940402a559bf082f567e04a6c60918d25614f886332aa6481782f1ccd06d19af2281940000000000000000000000000000000000000000000000342abf190222734000020065080002af0d0dd241e50c7fe2d86adea33a5cb99071d76b073618fa605d4468e221be590402af0d0dd241e50c7fe2d86adea33a5cb99071d76b073618fa605d4468e221be590000000000000000000000000000000000000000000000342abf190222734000020065080002c755c0e948877a3b5aa85867bc8e9c73dc0764a72ece3147d337de72c44c56050402c755c0e948877a3b5aa85867bc8e9c73dc0764a72ece3147d337de72c44c56050000000000000000000000000000000000000000000000342abf190222734000020065080002cd1a66d39cf29e66ae68fa594788fb5f2a5fe14ee638ea61911a3ecc516d490d0402cd1a66d39cf29e66ae68fa594788fb5f2a5fe14ee638ea61911a3ecc516d490d0000000000000000000000000000000000000000000000342abf190222734000020065080002ff6807685ae76823a467916b65b5b54a4b981fe921320781b32484813ebd04030402ff6807685ae76823a467916b65b5b54a4b981fe921320781b32484813ebd04030000000000000000000000000000000000000000000000342abf1902227340000200650800030a93921eeb735b5e441aa1a17efc3480cb88512d99285b81ec8bf65ff1fb8dde04030a93921eeb735b5e441aa1a17efc3480cb88512d99285b81ec8bf65ff1fb8dde0000000000000000000000000000000000000000000000342abf1902227340000200650800030e5221ffeaa4baa8ac004f032c282d2f2d47c8e8db0d79014008a6718ecd614804030e5221ffeaa4baa8ac004f032c282d2f2d47c8e8db0d79014008a6718ecd61480000000000000000000000000000000000000000000000342abf19022273400002006508000316d2a52db9888f6f204206ac8a0d4a243cd3a086a4eb53bb6de483e8d7e0d13a040316d2a52db9888f6f204206ac8a0d4a243cd3a086a4eb53bb6de483e8d7e0d13a0000000000000000000000000000000000000000000000342abf19022273400002006508000339ea428ab88f65341a0e6196bfdb70f838a4607ed8c6f0adf3deb304c77c85f9040339ea428ab88f65341a0e6196bfdb70f838a4607ed8c6f0adf3deb304c77c85f90000000000000000000000000000000000000000000000342abf190222734000020065080003434bbe775a976367f599678221787c043e6f56185cd33f701117045933d32c3d0403434bbe775a976367f599678221787c043e6f56185cd33f701117045933d32c3d0000000000000000000000000000000000000000000000342abf190222734000020065080003628c154dd29bea4dd7586b7cef5c33cda461fa31cab16b0e609aef35bad8782c0403628c154dd29bea4dd7586b7cef5c33cda461fa31cab16b0e609aef35bad8782c0000000000000000000000000000000000000000000000342abf1902227340000200650800037d30a82c39cd327588a3b91b747fd1dca449c03cbb43a71c0353dd4e360bafed04037d30a82c39cd327588a3b91b747fd1dca449c03cbb43a71c0353dd4e360bafed0000000000000000000000000000000000000000000000342abf19022273400002006508000384a8fac06870ba7e2495f73eeb5c34baa26c6989b57bd1479a2285b26e9b573a040384a8fac06870ba7e2495f73eeb5c34baa26c6989b57bd1479a2285b26e9b573a0000000000000000000000000000000000000000000000342abf1902227340000200650800038c42629c559aaff804d3803aa95c7262c26c112197f7c3676f981fb3284af30704038c42629c559aaff804d3803aa95c7262c26c112197f7c3676f981fb3284af3070000000000000000000000000000000000000000000000340ab88015c648000002006508000393754e6f118f8e2e890245a9f83de293e6349f397640fdb39d52efdfb94296ce040393754e6f118f8e2e890245a9f83de293e6349f397640fdb39d52efdfb94296ce0000000000000000000000000000000000000000000000340ab88015c6480000020065080003a781cb7945377345e83cc04ff2fa64a51fdf3db491fbb012da3865b50a965ff90403a781cb7945377345e83cc04ff2fa64a51fdf3db491fbb012da3865b50a965ff90000000000000000000000000000000000000000000000340ab88015c6480000020065080003aec13763151a9b4dbfc8fe1d02e98e5d16cff002a264d2a9d2be1dd959e6a2250403aec13763151a9b4dbfc8fe1d02e98e5d16cff002a264d2a9d2be1dd959e6a2250000000000000000000000000000000000000000000000340ab88015c6480000020065080003ba34802b8f28552e3bb034e3453c85cf00c575a50e7e3f7930f51e5cd35e0ceb0403ba34802b8f28552e3bb034e3453c85cf00c575a50e7e3f7930f51e5cd35e0ceb0000000000000000000000000000000000000000000000340ab88015c6480000020065080003e8f237becdbdf662f375cb6914b4a6c45809f4dc9d45df022bc477898c96391b0403e8f237becdbdf662f375cb6914b4a6c45809f4dc9d45df022bc477898c96391b0000000000000000000000000000000000000000000000340ab88015c6480000020065080003fb3042f5cab468e2b1de0c89cf2acc299f1e2af06d73699654a6aca75b0084f90403fb3042f5cab468e2b1de0c89cf2acc299f1e2af06d73699654a6aca75b0084f90000000000000000000000000000000000000000000000340ab88015c64800000f000b10000100000000000000020f000b11000100000000000000020f000b0f0001000000000000000202008a0c0001000000000000000000000000000000000000000000002a8e104842abb34800000202917a1d22076683650109925ea10c613dafb476cd34ac38d323c4225d8ee1cb000000000000000000000000000000000000000000002a8e104842abb348000000002710040202917a1d22076683650109925ea10c613dafb476cd34ac38d323c4225d8ee1cb02008a0c0001000000000000000000000000000000000000000000002a8e104842abb348000002293686eaa58fa084cc7551f69aab6f6e428ba52021b6610e8e7506923fab4c8d000000000000000000000000000000000000000000002a8e104842abb3480000000027100402293686eaa58fa084cc7551f69aab6f6e428ba52021b6610e8e7506923fab4c8d02008a0c0001000000000000000000000000000000000000000000002a8e304edb980f7340000250888d0d4543c60bae816d48d9038f50bbeb05117312077aa8919f23f2783300000000000000000000000000000000000000000000002a8e304edb980f73400000002710040250888d0d4543c60bae816d48d9038f50bbeb05117312077aa8919f23f278330002008a0c0001000000000000000000000000000000000000000000002a8e304edb980f734000025a857f0778f01d8b5f55d9cb85075910b0804e4ab98cd7413678de3e80ed27a1000000000000000000000000000000000000000000002a8e304edb980f7340000000271004025a857f0778f01d8b5f55d9cb85075910b0804e4ab98cd7413678de3e80ed27a102008a0c0001000000000000000000000000000000000000000000002a8e304edb980f73400002a559bf082f567e04a6c60918d25614f886332aa6481782f1ccd06d19af228194000000000000000000000000000000000000000000002a8e304edb980f734000000027100402a559bf082f567e04a6c60918d25614f886332aa6481782f1ccd06d19af22819402008a0c0001000000000000000000000000000000000000000000002a8e304edb980f73400002af0d0dd241e50c7fe2d86adea33a5cb99071d76b073618fa605d4468e221be59000000000000000000000000000000000000000000002a8e304edb980f734000000027100402af0d0dd241e50c7fe2d86adea33a5cb99071d76b073618fa605d4468e221be5902008a0c0001000000000000000000000000000000000000000000002a8e304edb980f73400002c755c0e948877a3b5aa85867bc8e9c73dc0764a72ece3147d337de72c44c5605000000000000000000000000000000000000000000002a8e304edb980f734000000027100402c755c0e948877a3b5aa85867bc8e9c73dc0764a72ece3147d337de72c44c560502008a0c0001000000000000000000000000000000000000000000002a8e304edb980f73400002cd1a66d39cf29e66ae68fa594788fb5f2a5fe14ee638ea61911a3ecc516d490d000000000000000000000000000000000000000000002a8e304edb980f734000000027100402cd1a66d39cf29e66ae68fa594788fb5f2a5fe14ee638ea61911a3ecc516d490d02008a0c0001000000000000000000000000000000000000000000002a8e304edb980f73400002ff6807685ae76823a467916b65b5b54a4b981fe921320781b32484813ebd0403000000000000000000000000000000000000000000002a8e304edb980f734000000027100402ff6807685ae76823a467916b65b5b54a4b981fe921320781b32484813ebd040302008a0c0001000000000000000000000000000000000000000000002a8e304edb980f734000030a93921eeb735b5e441aa1a17efc3480cb88512d99285b81ec8bf65ff1fb8dde000000000000000000000000000000000000000000002a8e304edb980f7340000000271004030a93921eeb735b5e441aa1a17efc3480cb88512d99285b81ec8bf65ff1fb8dde02008a0c0001000000000000000000000000000000000000000000002a8e304edb980f734000030e5221ffeaa4baa8ac004f032c282d2f2d47c8e8db0d79014008a6718ecd6148000000000000000000000000000000000000000000002a8e304edb980f7340000000271004030e5221ffeaa4baa8ac004f032c282d2f2d47c8e8db0d79014008a6718ecd614802008a0c0001000000000000000000000000000000000000000000002a8e304edb980f7340000316d2a52db9888f6f204206ac8a0d4a243cd3a086a4eb53bb6de483e8d7e0d13a000000000000000000000000000000000000000000002a8e304edb980f73400000002710040316d2a52db9888f6f204206ac8a0d4a243cd3a086a4eb53bb6de483e8d7e0d13a02008a0c0001000000000000000000000000000000000000000000002a8e304edb980f7340000339ea428ab88f65341a0e6196bfdb70f838a4607ed8c6f0adf3deb304c77c85f9000000000000000000000000000000000000000000002a8e304edb980f73400000002710040339ea428ab88f65341a0e6196bfdb70f838a4607ed8c6f0adf3deb304c77c85f902008a0c0001000000000000000000000000000000000000000000002a8e304edb980f73400003434bbe775a976367f599678221787c043e6f56185cd33f701117045933d32c3d000000000000000000000000000000000000000000002a8e304edb980f734000000027100403434bbe775a976367f599678221787c043e6f56185cd33f701117045933d32c3d02008a0c0001000000000000000000000000000000000000000000002a8e304edb980f73400003628c154dd29bea4dd7586b7cef5c33cda461fa31cab16b0e609aef35bad8782c000000000000000000000000000000000000000000002a8e304edb980f734000000027100403628c154dd29bea4dd7586b7cef5c33cda461fa31cab16b0e609aef35bad8782c02008a0c0001000000000000000000000000000000000000000000002a8e304edb980f734000037d30a82c39cd327588a3b91b747fd1dca449c03cbb43a71c0353dd4e360bafed000000000000000000000000000000000000000000002a8e304edb980f7340000000271004037d30a82c39cd327588a3b91b747fd1dca449c03cbb43a71c0353dd4e360bafed02008a0c0001000000000000000000000000000000000000000000002a8e304edb980f7340000384a8fac06870ba7e2495f73eeb5c34baa26c6989b57bd1479a2285b26e9b573a000000000000000000000000000000000000000000002a8e304edb980f73400000002710040384a8fac06870ba7e2495f73eeb5c34baa26c6989b57bd1479a2285b26e9b573a02008a0c0001000000000000000000000000000000000000000000002a8e104842abb3480000038c42629c559aaff804d3803aa95c7262c26c112197f7c3676f981fb3284af307000000000000000000000000000000000000000000002a8e104842abb34800000000271004038c42629c559aaff804d3803aa95c7262c26c112197f7c3676f981fb3284af30702008a0c0001000000000000000000000000000000000000000000002a8e104842abb34800000393754e6f118f8e2e890245a9f83de293e6349f397640fdb39d52efdfb94296ce000000000000000000000000000000000000000000002a8e104842abb348000000002710040393754e6f118f8e2e890245a9f83de293e6349f397640fdb39d52efdfb94296ce02008a0c0001000000000000000000000000000000000000000000002a8e104842abb348000003a781cb7945377345e83cc04ff2fa64a51fdf3db491fbb012da3865b50a965ff9000000000000000000000000000000000000000000002a8e104842abb3480000000027100403a781cb7945377345e83cc04ff2fa64a51fdf3db491fbb012da3865b50a965ff902008a0c0001000000000000000000000000000000000000000000002a8e104842abb348000003aec13763151a9b4dbfc8fe1d02e98e5d16cff002a264d2a9d2be1dd959e6a225000000000000000000000000000000000000000000002a8e104842abb3480000000027100403aec13763151a9b4dbfc8fe1d02e98e5d16cff002a264d2a9d2be1dd959e6a22502008a0c0001000000000000000000000000000000000000000000002a8e104842abb348000003ba34802b8f28552e3bb034e3453c85cf00c575a50e7e3f7930f51e5cd35e0ceb000000000000000000000000000000000000000000002a8e104842abb3480000000027100403ba34802b8f28552e3bb034e3453c85cf00c575a50e7e3f7930f51e5cd35e0ceb02008a0c0001000000000000000000000000000000000000000000002a8e104842abb348000003e8f237becdbdf662f375cb6914b4a6c45809f4dc9d45df022bc477898c96391b000000000000000000000000000000000000000000002a8e104842abb3480000000027100403e8f237becdbdf662f375cb6914b4a6c45809f4dc9d45df022bc477898c96391b02008a0c0001000000000000000000000000000000000000000000002a8e104842abb348000003fb3042f5cab468e2b1de0c89cf2acc299f1e2af06d73699654a6aca75b0084f9000000000000000000000000000000000000000000002a8e104842abb3480000000027100403fb3042f5cab468e2b1de0c89cf2acc299f1e2af06d73699654a6aca75b0084f90e00030c00010200330d000384a8fac06870ba7e2495f73eeb5c34baa26c6989b57bd1479a2285b26e9b573a000000000000000000000000000000000200330d00037d30a82c39cd327588a3b91b747fd1dca449c03cbb43a71c0353dd4e360bafed000000000000000000000000000000000200330d0003628c154dd29bea4dd7586b7cef5c33cda461fa31cab16b0e609aef35bad8782c000000000000000000000000000000000200330d0003434bbe775a976367f599678221787c043e6f56185cd33f701117045933d32c3d000000000000000000000000000000000200330d000339ea428ab88f65341a0e6196bfdb70f838a4607ed8c6f0adf3deb304c77c85f9000000000000000000000000000000000200330d000316d2a52db9888f6f204206ac8a0d4a243cd3a086a4eb53bb6de483e8d7e0d13a000000000000000000000000000000000200330d00030e5221ffeaa4baa8ac004f032c282d2f2d47c8e8db0d79014008a6718ecd6148000000000000000000000000000000000200330d00030a93921eeb735b5e441aa1a17efc3480cb88512d99285b81ec8bf65ff1fb8dde000000000000000000000000000000000200330d0002ff6807685ae76823a467916b65b5b54a4b981fe921320781b32484813ebd0403000000000000000000000000000000000200330d0002cd1a66d39cf29e66ae68fa594788fb5f2a5fe14ee638ea61911a3ecc516d490d000000000000000000000000000000000200330d0002c755c0e948877a3b5aa85867bc8e9c73dc0764a72ece3147d337de72c44c5605000000000000000000000000000000000200330d0002af0d0dd241e50c7fe2d86adea33a5cb99071d76b073618fa605d4468e221be59000000000000000000000000000000000200330d0002a559bf082f567e04a6c60918d25614f886332aa6481782f1ccd06d19af228194000000000000000000000000000000000200330d00025a857f0778f01d8b5f55d9cb85075910b0804e4ab98cd7413678de3e80ed27a1000000000000000000000000000000000200330d000250888d0d4543c60bae816d48d9038f50bbeb05117312077aa8919f23f2783300000000000000000000000000000000000200330d0003fb3042f5cab468e2b1de0c89cf2acc299f1e2af06d73699654a6aca75b0084f9000000000000000000000000000000000200330d0003e8f237becdbdf662f375cb6914b4a6c45809f4dc9d45df022bc477898c96391b000000000000000000000000000000000200330d0003ba34802b8f28552e3bb034e3453c85cf00c575a50e7e3f7930f51e5cd35e0ceb000000000000000000000000000000000200330d0003aec13763151a9b4dbfc8fe1d02e98e5d16cff002a264d2a9d2be1dd959e6a225000000000000000000000000000000000200330d0003a781cb7945377345e83cc04ff2fa64a51fdf3db491fbb012da3865b50a965ff9000000000000000000000000000000000200330d000393754e6f118f8e2e890245a9f83de293e6349f397640fdb39d52efdfb94296ce000000000000000000000000000000000200330d00038c42629c559aaff804d3803aa95c7262c26c112197f7c3676f981fb3284af307000000000000000000000000000000000200330d0002293686eaa58fa084cc7551f69aab6f6e428ba52021b6610e8e7506923fab4c8d000000000000000000000000000000000200330d000202917a1d22076683650109925ea10c613dafb476cd34ac38d323c4225d8ee1cb0000000000000000000000000000000002000a03000000000000000002020012020000000000000000000000017ae548cf7b00",
+                "fee": {
+                    "value": "0",
+                    "resource_identifier": {
+                        "rri": "xrd_tr1qyf0x76s",
+                        "type": "Token"
+                    }
+                }
+            }
+        }
+    ]
+}
