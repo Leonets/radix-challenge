@@ -1,0 +1,204 @@
+openapi: 3.0.0
+info:
+  title: radix-challenge
+  version: 0.1.0
+  description: Transfer API
+
+servers:
+  - url: https://{environment}/v1
+    variables:
+      environment:
+        default: api    # Production server
+        enum:
+          - api.radix.io         # Production server
+          - api.in.radix.io     # Integration development server
+          - api.test.radix.io   # Staging server
+          - localhost:8086
+
+paths:
+  /monitor:
+    post:
+      summary: Adds a list of addresses to be monitored
+      description: Adds addresses to be monitored
+      tags:
+        - monitor
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AddressesRequest'
+      responses:
+        200:
+          description: Operation success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        400:
+          description: Wrong Parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        500:
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+    delete:
+      summary: Remove a list of addresses from the monitoring
+      description: Addresses to be monitored anymore
+      tags:
+        - monitor
+      responses:
+        200:
+          description: Operation success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        400:
+          description: Wrong Parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+        500:
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResult'
+  /transfers/{id}:
+    parameters:
+      - in: path
+        name: id
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Returns amounts transferred to token with ID rri_id
+      description: List the amounts transferred only to token with ID rri_id
+      tags:
+        - transfers
+      responses:
+        200:
+          description: Operation success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+        400:
+          description: Wrong Parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+        500:
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+  /transfers/address:
+    parameters:
+      - in: path
+        name: address
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Returns amounts transferred to token with ID rri_id
+      description: List the amounts transferred only to token with ID rri_id
+      tags:
+        - transfers
+      responses:
+        200:
+          description: Operation success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+        400:
+          description: Wrong Parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+        500:
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+  /transfers:
+    get:
+      summary: List tokens and amount transferred
+      description: List the token transferred and the total amount transferred
+      tags:
+        - transfers
+      responses:
+        200:
+          description: Operation success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+        400:
+          description: Wrong Parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+        500:
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokensTransferedResult'
+components:
+  schemas:
+    AddressesRequest:
+      type: object
+      properties:
+        Address:
+          description: address to be monitored
+          items:
+            $ref: '#/components/schemas/Address'
+          type: array
+      required:
+        - Address
+      description: Container object for the Addresses
+    Address:
+      type: string
+      example:
+        tv1qtlkspmgttnksgayv7gkked4k49yhxqlaysnypupkvjgfqf7h5zqxn0t0tl
+    TokensTransferedResult:
+      type: object
+      properties:
+        transfers:
+          description: Token Transfer Container
+          items:
+            $ref: '#/components/schemas/TokenTransfer'
+          type: array
+    OperationResult:
+      type: object
+      properties:
+        result:
+          type: string
+      required:
+        - result
+    TokenTransfer:
+      description: Token Transfer
+      example:
+        address: tv1qtlkspmgttnksgayv7gkked4k49yhxqlaysnypupkvjgfqf7h5zqxn0t0tl
+        rri: xrd_tr1qyf0x76s
+        amount: 500
+      properties:
+        address:
+          type: string
+        rri:
+          type: string
+        amount:
+          type: number

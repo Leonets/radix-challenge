@@ -14,7 +14,7 @@ This system offers the following api to check for the transfers:
 | /transfers/address | GET      | Returns transfers to the monitored addresses                          |
 | /monitor           | POST     | Adds a list of addresses to be monitored (See example payload below)  |
 | /monitor           | DELETE   | Deletes all addresses to be monitored                                 |
-|--------------------|----------|-----------------------------------------------------------------------|
+
 
 This application uses:
  - Spring Boot 2.7.4
@@ -22,13 +22,13 @@ This application uses:
  - WireMock
  - JDK17
  - Reactive Feign
- - maven 3.8.6
+ - Maven 3.8.6
 
 It has been tested on Ubuntu 20.04
 
 ## Application
 
-Il progetto contiene:
+The application contains:
 
 * package rdx.gateway.challenge.api: Controller 
 * package rdx.gateway.challenge.config: Configs for Reactive Feign Client configuration
@@ -41,6 +41,16 @@ Il progetto contiene:
 * package rdx.gateway.challenge: Main Spring Boot Application (GatewayChallengeApplication)
 
 * Dockerfile with OpenJDK image
+
+The unit testing contains:
+* ControllerTest
+* TransfersTest
+* SchedulerTest
+* MapperTest
+
+The docs contains:
+* yaml
+* snapshot from Postman testing
 
 ### Build & test 
 

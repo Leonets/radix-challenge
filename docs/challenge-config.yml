@@ -1,0 +1,11 @@
+additionalProperties:
+  basePackage: "rdx.gateway.challenge.api"
+  modelPackage: "rdx.gateway.challenge.api.model"
+  invokerPackage: "rdx.gateway.challenge.api.api"
+  apiPackage: "rdx.gateway.challenge.api.api"
+  configPackage: "rdx.gateway.challenge.api.configuration"
+  useTags: "true"
+  hideGenerationTimestamp: "true"
+  reactive: "true"
+  documentationProvider: "none"
+  useSwaggerUI: "false"
