@@ -51,6 +51,7 @@ The unit testing contains:
 The docs contains:
 * yaml
 * snapshot from Postman testing
+* 
 
 ### Build & test 
 
