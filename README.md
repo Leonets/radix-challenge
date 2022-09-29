@@ -2,18 +2,20 @@
 
 This application interacts with a Radix full node (toy-deployment setup) for getting out the token transfers.  
 
-This system starts then continuously pulling all the submitted transactions to the network, 
-then it detects every token transfer of any type for storing it in-memory.
+This system starts and then continuously exctracts all the submitted transactions to the network, 
+then it detects every token transfer of any type to storing it in-memory 
+and then serve it to clients who request it.
 
 This system offers the following api to check for the transfers:
 
-| Endpoint           | Medhod   | Description                                                           |
-|--------------------|----------|-----------------------------------------------------------------------|
-| /transfers         | GET      | List tokens and amount transferred                                    |
-| /transfers/:rri_id | GET      | Returns amounts transferred to token with ID rri_id                   |
-| /transfers/address | GET      | Returns transfers to the monitored addresses                          |
-| /monitor           | POST     | Adds a list of addresses to be monitored (See example payload below)  |
-| /monitor           | DELETE   | Deletes all addresses to be monitored                                 |
+| Endpoint           | Medhod   | Description                                         |
+|--------------------|----------|-----------------------------------------------------|
+| /transfers         | GET      | List token transfers and amount transferred         |
+| /transfers/:rri_id | GET      | Returns amounts transferred to token with ID rri_id |
+| /transfers/address | GET      | Returns transfers to the monitored addresses        |
+| /transfers/tokens  | GET      | Returns grouped amount transferred to tokens        |
+| /monitor           | POST     | Adds a list of addresses to be monitored            |
+| /monitor           | DELETE   | Deletes all addresses to be monitored               |
 
 
 This application uses:
@@ -51,12 +53,15 @@ The unit testing contains:
 The docs contains:
 * yaml
 * snapshot from Postman testing
-* 
 
-### Build & test 
+Configuration:
+no configuration is required apart from that of the parameter 
+coreapi.api.url: http://localhost:3333 (host:ip of the core node api)
+
+### Build & running & test 
 
 The system can be started with the following command (mvn 3.8.6):
-  - mvn clean package -DskipTests=true spring-boot:run
+  - mvn clean package spring-boot:run
 
 ### Code Coverage
 
@@ -64,6 +69,7 @@ The target folder (target/site/index.html) contains the result of the code anali
 
 # Exception manage
 * It is used and advice `GlobalExceptionHandler` for getting some kind of exception, `Exception` included
-* When an exception rise from the Feign http client then a specific class `CustomErrorDecoderForFeign` will decode the error and then raise back again one of the following:
+* When an exception rise from the Feign http client then a specific class `CustomErrorDecoderForFeign` will decode the error and 
+then raise back again one of the following:
     * `RestApiClientException` 
     * `RestApiServerException`

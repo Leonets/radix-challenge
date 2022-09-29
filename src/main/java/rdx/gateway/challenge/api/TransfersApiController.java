@@ -6,16 +6,24 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import rdx.gateway.challenge.coremodel.EntityIdentifier;
+import rdx.gateway.challenge.coremodel.Operation;
+import rdx.gateway.challenge.coremodel.OperationGroup;
 import rdx.gateway.challenge.model.TokenTransfer;
 import rdx.gateway.challenge.model.TokensTransferedResult;
+import rdx.gateway.challenge.model.Transfers;
 import rdx.gateway.challenge.util.AddressStorage;
 import rdx.gateway.challenge.util.TransfersStorage;
 import rdx.gateway.challenge.util.mapper.TransfersMapper;
 import reactor.core.publisher.Mono;
 
 import javax.annotation.Generated;
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Generated(value = "org.openapitools.codegen.languages.SpringCodegen")
 @Controller
@@ -110,6 +118,58 @@ public class TransfersApiController implements TransfersApi {
         result.setTransfers(output);
 
         return ResponseEntity.ok(result);
+    }
+
+
+    /**
+     * GET /transfers/tokens : total amounts transferred to token
+     * List the amounts transferred only to token with ID rri_id
+     *
+     * @param id  (required)
+     * @return Operation success (status code 200)
+     *         or Wrong Parameters (status code 400)
+     *         or Server error (status code 500)
+     */
+    @RequestMapping(
+            method = RequestMethod.GET,
+            value = "/transfers/tokens",
+            produces = { "application/json" }
+    )
+    public ResponseEntity<TokensTransferedResult> transfersTokens() {
+        //grouping transfers by rrid
+        //sum the amounts
+        //return the total amount transfered for each token type
+        List<TokenTransfer> output = TransfersMapper.MAPPER
+                .toTransfersList(transfersStorage.getTransfers())
+                .stream()
+                .collect(Collectors.groupingBy(transfer -> transfer.getRri()))
+                .entrySet().stream()
+                .map(e -> e.getValue().stream()
+                        .reduce((f1,f2) -> new TokenTransfer(null,f1.getRri(),f1.getAmount().add(f2.getAmount()))))
+                .map(f -> f.get())
+                .collect(Collectors.toList());
+
+        TokensTransferedResult result = new TokensTransferedResult();
+        result.setTransfers(output);
+
+        return ResponseEntity.ok(result);
+    }
+
+
+    /**
+     * Returns the XRD balance change which occured on every entity from a set
+     * of operation groups.
+     */
+    Map<EntityIdentifier, BigInteger> operationGroupsToBalanceChanges(Stream<OperationGroup> operationGroups) {
+        return operationGroups
+                .flatMap(group -> group.getOperations().stream())
+                .collect(Collectors.groupingBy(
+                        Operation::getEntityIdentifier,
+                        Collectors.mapping(
+                                op -> new BigInteger(op.getAmount().getValue()),
+                                Collectors.reducing(BigInteger.ZERO, BigInteger::add)
+                        )
+                ));
     }
 
 }

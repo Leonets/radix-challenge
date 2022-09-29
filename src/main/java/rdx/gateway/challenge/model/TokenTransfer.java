@@ -23,9 +23,18 @@ public class TokenTransfer {
   @JsonProperty("amount")
   private BigDecimal amount;
 
+  public TokenTransfer() {
+  }
+
   public TokenTransfer address(String address) {
     this.address = address;
     return this;
+  }
+
+  public TokenTransfer(String address, String rri, BigDecimal amount) {
+    this.address = address;
+    this.rri = rri;
+    this.amount = amount;
   }
 
   /**

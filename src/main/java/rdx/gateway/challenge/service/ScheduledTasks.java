@@ -55,8 +55,6 @@ public class ScheduledTasks {
                 .limit(100L)
                 .stateIdentifier(stateIdentifier);
 
-        state_version = state_version + 100L;
-
         log.info(" requesting transactions to core api \n" + printer.prettyPrintMe(committedTransactionsRequest) );
 
         //loop around this
@@ -66,6 +64,8 @@ public class ScheduledTasks {
     public void transfersGet(
             @Valid @RequestBody(required = false) CommittedTransactionsRequest committedTransactionsRequest
     ) {
+        //here I ask for the Core Api
+        //request needs to use block because it is inside a scheduled task
         transactionService.transactionsPost(committedTransactionsRequest)
                 .doOnRequest(s -> {
                     log.debug("Start elaborating incoming request with payload", committedTransactionsRequest);
@@ -86,12 +86,17 @@ public class ScheduledTasks {
         // Extract operation groups
         Stream<OperationGroup> operationGroups = response.getTransactions().stream()
                 .flatMap(txn -> txn.getOperationGroups().stream());
+
+        //update the state version by adding the number of transactions
+        int size = response.getTransactions().size();
+        state_version = state_version + size;
+
         // Extract transfers
         List<Transfers> transfers = operationGroupsToTransfer(operationGroups);
         log.info(" Extracting transfers data from response, found n. {} ", transfers.size()  );
         for (Transfers transfer: transfers
              ) {
-            log.info(" transfer: resource {}, amount {} ",transfer.getAddress(),transfer.getAmount());
+            log.debug(" transfer: resource {}, amount {} ",transfer.getAddress(),transfer.getAmount());
         }
 
         //add the transfers found in an in-memory container
