@@ -32,17 +32,24 @@ It has been tested on Ubuntu 20.04
 
 The application contains:
 
-* package rdx.gateway.challenge.api: Controller 
-* package rdx.gateway.challenge.config: Configs for Reactive Feign Client configuration
-* package rdx.gateway.challenge.coreclient: Reactive Feign Client interface for Core API
-* package rdx.gateway.challenge.coremodel: Model from the Core Api (build with openapi-generator)
-* package rdx.gateway.challenge.exception: Exception manage for the Reactive Feign Client
-* package rdx.gateway.challenge.model: Model for the exposed Api (build with openapi-generator)
-* package rdx.gateway.challenge.service: Service for using the Api Client / Scheduler
-* package rdx.gateway.challenge.mapper: Mapper from the returned data schema to the provided schema
-* package rdx.gateway.challenge: Main Spring Boot Application (GatewayChallengeApplication)
+* package rdx.gateway.challenge
+  * api: Controller 
+  * config: Configs for Reactive Feign Client configuration
+  * coreclient: Reactive Feign Client interface for Core API
+  * coremodel: Model from the Core Api (build with openapi-generator)
+  * exception: Exception manage for the Reactive Feign Client
+  * model: Model for the exposed Api (build with openapi-generator)
+  * service: Service for using the Api Client / Scheduler
+  * mapper: Mapper from the returned data schema to the provided schema
+  * challenge: Main Spring Boot Application (GatewayChallengeApplication)
 
 * Dockerfile with OpenJDK image
+
+How to build the image:
+docker build -t gateway-challenge .
+
+How to run the container:
+docker run -dp 8086:8086 gateway-challenge
 
 The unit testing contains:
 * ControllerTest
@@ -53,6 +60,7 @@ The unit testing contains:
 The docs contains:
 * yaml
 * snapshot from Postman testing
+* Postman collection 
 
 Configuration:
 no configuration is required apart from that of the parameter 
@@ -67,7 +75,7 @@ The system can be started with the following command (mvn 3.8.6):
 
 The target folder (target/site/index.html) contains the result of the code analisys, currently coverage is about 40% 
 
-# Exception manage
+### Exception manage
 * It is used and advice `GlobalExceptionHandler` for getting some kind of exception, `Exception` included
 * When an exception rise from the Feign http client then a specific class `CustomErrorDecoderForFeign` will decode the error and 
 then raise back again one of the following:

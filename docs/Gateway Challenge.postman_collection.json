@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "80871069-82fd-4e3e-be1b-ee3a42b378c8",
+		"name": "Gateway Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20274813"
+	},
+	"item": [
+		{
+			"name": "Transactions (8086) [OK]",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"network_identifier\": {\n    \"network\": \"stokenet\",\n    \"description\": \"The name of the network\"\n  },\n  \"state_identifier\": {\n    \"state_version\": 200\n  },\n  \"limit\": 10\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8086/v1/transactions/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"v1",
+						"transactions",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transfers (8086) [OK]",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"network_identifier\": {\n    \"network\": \"stokenet\",\n    \"description\": \"The name of the network\"\n  },\n  \"state_identifier\": {\n    \"state_version\": 40897\n  },\n  \"limit\": 1\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8086/v1/transfers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"v1",
+						"transfers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transfers/Tokens (8086) [OK]",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"network_identifier\": {\n    \"network\": \"stokenet\",\n    \"description\": \"The name of the network\"\n  },\n  \"state_identifier\": {\n    \"state_version\": 40897\n  },\n  \"limit\": 1\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8086/v1/transfers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"v1",
+						"transfers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transfers/id (8086) [OK]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/v1/transfers/xrd_tr1qyf0x76s",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"v1",
+						"transfers",
+						"xrd_tr1qyf0x76s"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transfers/addresses (8086) [OK]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/v1/transfers/address",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"v1",
+						"transfers",
+						"address"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monitor (8086) [OK]",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"Address\": [\"rdx1qspd0ge3xj4pqk4dmugw77l7wxfwuepj6fvwpfcvfd89jzwc40add2qxrsud4\"]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8086/v1/monitor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"v1",
+						"monitor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monitor Delete (8086) [OK]",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"Address\": [\"rdx1qspd0ge3xj4pqk4dmugw77l7wxfwuepj6fvwpfcvfd89jzwc40add2qxrsud4\"]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8086/v1/monitor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"v1",
+						"monitor"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
